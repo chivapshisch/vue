@@ -4,4 +4,5 @@ class Dress:
 		self.name = name 
 
 pt = Dress('ff')
-print(pt.__dict__)
+res = Dress('fara')
+print(res.__dict__)
